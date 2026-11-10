@@ -1,0 +1,8 @@
+[build]
+  command = "vite build"
+  publish = "build"
+
+[[redirects]]
+  from = "/toml-old"
+  to = "/"
+  status = 301
